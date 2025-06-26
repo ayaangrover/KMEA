@@ -190,10 +190,10 @@ public class Adventurer extends Robot
         while(!nextToABeeper())
         {
             faceEast();
-            for(int i=0;i<4;i++)
-            {
-                move();
-            }
+            move();
+            move();
+            move();
+            move();
             faceNorth();
             move();
         }
